@@ -11,10 +11,10 @@ Ce projet illustre comment utiliser Next.js, Docker et Docker Compose pour déve
 
 Pour démarrer le serveur de développement et exécuter l'application Next.js en mode développement, exécutez la commande suivante :
 
-python
-```docker build -t my-cv-dev -f Dockerfile.dev .```
-python
-```docker run -p 3000:3000 -v $(pwd):/app my-cv-dev```
+```python
+docker build -t my-cv-dev -f Dockerfile.dev .
+docker run -p 3000:3000 -v $(pwd):/app my-cv-dev
+```
 
 
 
@@ -28,8 +28,9 @@ Pour la simplicité nous allons combiner les deux phases Build et Run dans un se
 
 Pour générer les pages statiques avec Next.js de la phase Build, et servir ces pages directement :
 
-python
-```docker compose --build```
+```python
+docker compose --build
+```
 
 Cette commande démarrera un conteneur pour le service `build` défini dans le fichier `Dockerfile.build`. Le conteneur générera les pages statique en (html, css et js) et stockera la sortie dans un volume nommé `build_data`.
 
@@ -37,9 +38,9 @@ Cette commande démarrera un conteneur pour le service `build` défini dans le f
 
 Pour exécuter les pages statique à l'aide de la sortie générée par le service `build`, exécutez la commande suivante :
 
-python
-```docker compose up```
-
+```python
+docker compose up
+```
 
 Cette commande démarrera des conteneurs pour les services `build` et `run` définis dans le fichier `docker-compose.yml`. Le service `run` servira les fichiers statiques générés par le service `build` à l'aide de `Nginx` sur le port `80`.
 
