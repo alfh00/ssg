@@ -1,0 +1,43 @@
+{
+    "name": "ALI FATHALLAH",
+    "title": "Customer Support",
+    "contact": {
+      "phone": "06 13 81 96 91",
+      "email": "alifathallahpro@gmail.com",
+      "location": "Paris, France"
+    },
+    "skills": ["Communication", "Analytique et Technique"],
+    "experience": [
+      {
+        "title": "WEBRADIO",
+        "role": "Support Management",
+        "duration": "2023 – AUJOURD’HUI",
+        "description": [
+          "Streaming Monitoring et Gestion de contenu.",
+          "Réduction des coûts et amélioration des performances de l’infrastructure.",
+          "Planification et exécution de la migration de Vue à Nuxt pour l'optimisation SEO.",
+          "Monitoring et intervention sur les serveurs."
+        ],
+        "tech_environment": "Linux, Nuxt, Django, ffmpeg, Github Actions"
+      },
+      {
+        "title": "LEMON",
+        "role": "Support Dev",
+        "duration": "2022 – 2023",
+        "description": [
+          "Maintenance corrective et évolutive des applications.",
+          "Migration d'une base de données volumineuse.",
+          "Méthode Agile/Scrum."
+        ],
+        "tech_environment": "Node, React.js, MongoDB, RESTful APIs, CI/CD"
+      }
+    ],
+    "education": [
+      "AWS RE/START PROGRAM CLOUD FOUNDATIONS - Amazon Web Service",
+      "Bachelor in Software Development",
+      "Engineering Preparation - Ecole Supérieur d’aéronautique et technologie"
+    ],
+    "languages": ["Français: Professionnel", "Anglais: Professionnel", "Grec: Débutant"],
+    "interests": ["Automatisation", "Programmation", "Technologie", "DeFi", "Trading"]
+  }
+  
