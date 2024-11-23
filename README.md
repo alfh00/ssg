@@ -6,6 +6,8 @@ Ce projet illustre comment utiliser Next.js, Docker et Docker Compose pour déve
 
 * [Docker](https://docs.docker.com/get-docker/) installé sur votre machine.
 * [Docker Compose](https://docs.docker.com/compose/install/) installé sur votre machine.
+* [Node.js](https://nodejs.org/) installé sur votre machine.
+* [npm](https://www.npmjs.com/) installé sur votre machine.
 
 ## Phase 1: Développement
 
